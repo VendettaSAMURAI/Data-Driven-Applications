@@ -1,0 +1,81 @@
+case_id,source_system,field_name,reported_value,issue_text,created_at,reporter_team
+DQ-0001,ERP,quantity,DUP-1001,The record appears to contain a duplicate customer or order identifier. Manual review is recommended.,2026-09-01T09:08:00,Sales
+DQ-0002,SupportDesk,customer_id,DUP-1001,The record appears to contain a duplicate customer or order identifier.,2026-09-08T15:29:00,Support
+DQ-0003,IoT,customer_id,n/a,"A user reported a data quality issue, but the description is ambiguous.",2026-09-08T11:48:00,DataOps
+DQ-0004,Webshop,temperature,DUP-1001,The record appears to contain a duplicate customer or order identifier.,2026-09-07T09:42:00,Finance
+DQ-0005,CRM,price,DUP-1001,The record appears to contain a duplicate customer or order identifier.,2026-09-07T09:42:00,DataOps
+DQ-0006,Webshop,customer_id,abc@@example,The customer_id field format does not match the expected pattern. Manual review is recommended.,2026-09-04T17:51:00,Sales
+DQ-0007,SupportDesk,price,999999,The price value appears to be extremely high compared with the usual range.,2026-09-08T11:09:00,Analytics
+DQ-0008,IoT,status,32/13/2026,The status date field is not in ISO format or contains an impossible date.,2026-09-07T10:10:00,Analytics
+DQ-0009,CRM,quantity,abc@@example,The quantity field format does not match the expected pattern.,2026-09-08T16:39:00,Sales
+DQ-0010,Webshop,created_at,32/13/2026,The created_at date field is not in ISO format or contains an impossible date.,2026-09-02T16:58:00,Analytics
+DQ-0011,ERP,quantity,-12,The quantity field contains a negative or non-numeric value.,2026-09-05T13:14:00,Finance
+DQ-0012,CRM,temperature,32/13/2026,The temperature date field is not in ISO format or contains an impossible date.,2026-09-07T10:42:00,Support
+DQ-0013,CRM,created_at,abc@@example,The created_at field format does not match the expected pattern.,2026-09-01T11:49:00,Sales
+DQ-0014,Webshop,price,,The price field is missing from the record.,2026-09-07T13:53:00,Sales
+DQ-0015,SupportDesk,temperature,-12,The temperature field contains a negative or non-numeric value. Manual review is recommended.,2026-09-08T14:26:00,DataOps
+DQ-0016,SupportDesk,price,32/13/2026,The price date field is not in ISO format or contains an impossible date.,2026-09-01T09:42:00,DataOps
+DQ-0017,SupportDesk,quantity,-12,The quantity field contains a negative or non-numeric value.,2026-09-08T10:38:00,DataOps
+DQ-0018,ERP,email,-12,The email field contains a negative or non-numeric value.,2026-09-02T12:22:00,Finance
+DQ-0019,Webshop,email,abc@@example,The email field format does not match the expected pattern.,2026-09-04T08:56:00,Analytics
+DQ-0020,CRM,created_at,-12,The created_at field contains a negative or non-numeric value.,2026-09-07T15:07:00,DataOps
+DQ-0021,ERP,customer_id,DUP-1001,The record appears to contain a duplicate customer or order identifier.,2026-09-03T14:07:00,DataOps
+DQ-0022,SupportDesk,status,abc@@example,The status field format does not match the expected pattern. Manual review is recommended.,2026-09-08T16:46:00,DataOps
+DQ-0023,IoT,temperature,n/a,"A user reported a data quality issue, but the description is ambiguous.",2026-09-04T08:12:00,DataOps
+DQ-0024,IoT,price,,The price field is missing from the record.,2026-09-01T17:39:00,DataOps
+DQ-0025,Webshop,temperature,999999,The temperature value appears to be extremely high compared with the usual range. Manual review is recommended.,2026-09-04T16:14:00,Finance
+DQ-0026,SupportDesk,temperature,abc@@example,The temperature field format does not match the expected pattern.,2026-09-04T08:18:00,Analytics
+DQ-0027,Webshop,price,abc@@example,The price field format does not match the expected pattern.,2026-09-07T11:40:00,Finance
+DQ-0028,CRM,temperature,abc@@example,The temperature field format does not match the expected pattern.,2026-09-06T16:19:00,Finance
+DQ-0029,Webshop,price,-12,The price field contains a negative or non-numeric value.,2026-09-07T17:54:00,Finance
+DQ-0030,ERP,category,DUP-1001,The record appears to contain a duplicate customer or order identifier.,2026-09-06T17:37:00,Finance
+DQ-0031,IoT,customer_id,DUP-1001,The record appears to contain a duplicate customer or order identifier.,2026-09-02T12:10:00,DataOps
+DQ-0032,IoT,category,DUP-1001,The record appears to contain a duplicate customer or order identifier.,2026-09-05T12:17:00,Analytics
+DQ-0033,Webshop,category,abc@@example,The category field format does not match the expected pattern.,2026-09-06T11:15:00,Analytics
+DQ-0034,IoT,customer_id,-12,The customer_id field contains a negative or non-numeric value.,2026-09-04T13:31:00,DataOps
+DQ-0035,CRM,temperature,,The temperature field is missing from the record.,2026-09-07T08:50:00,Sales
+DQ-0036,CRM,customer_id,abc@@example,The customer_id field format does not match the expected pattern.,2026-09-02T15:29:00,Finance
+DQ-0037,SupportDesk,price,-12,The price field contains a negative or non-numeric value.,2026-09-02T13:50:00,DataOps
+DQ-0038,CRM,created_at,abc@@example,The created_at field format does not match the expected pattern.,2026-09-02T11:46:00,DataOps
+DQ-0039,SupportDesk,quantity,-12,The quantity field contains a negative or non-numeric value.,2026-09-06T13:04:00,Analytics
+DQ-0040,CRM,quantity,DUP-1001,The record appears to contain a duplicate customer or order identifier. Manual review is recommended.,2026-09-05T14:09:00,Support
+DQ-0041,CRM,price,999999,The price value appears to be extremely high compared with the usual range.,2026-09-05T10:21:00,Sales
+DQ-0042,CRM,email,,The email field is missing from the record.,2026-09-03T10:35:00,Finance
+DQ-0043,Webshop,customer_id,abc@@example,The customer_id field format does not match the expected pattern.,2026-09-02T17:45:00,DataOps
+DQ-0044,ERP,created_at,-12,The created_at field contains a negative or non-numeric value.,2026-09-07T10:10:00,Sales
+DQ-0045,IoT,email,abc@@example,The email field format does not match the expected pattern.,2026-09-05T14:52:00,Support
+DQ-0046,SupportDesk,quantity,abc@@example,The quantity field format does not match the expected pattern.,2026-09-08T13:47:00,Analytics
+DQ-0047,ERP,category,32/13/2026,The category date field is not in ISO format or contains an impossible date.,2026-09-08T10:53:00,Finance
+DQ-0048,IoT,category,n/a,"A user reported a data quality issue, but the description is ambiguous.",2026-09-07T10:52:00,Support
+DQ-0049,IoT,price,32/13/2026,The price date field is not in ISO format or contains an impossible date.,2026-09-01T13:32:00,Finance
+DQ-0050,Webshop,temperature,abc@@example,The temperature field format does not match the expected pattern. Manual review is recommended.,2026-09-03T08:05:00,Sales
+DQ-0051,IoT,created_at,n/a,"A user reported a data quality issue, but the description is ambiguous.",2026-09-07T17:40:00,Analytics
+DQ-0052,CRM,quantity,999999,The quantity value appears to be extremely high compared with the usual range. Manual review is recommended.,2026-09-06T13:06:00,Finance
+DQ-0053,CRM,status,n/a,"A user reported a data quality issue, but the description is ambiguous. Manual review is recommended.",2026-09-04T15:23:00,Analytics
+DQ-0054,Webshop,quantity,n/a,"A user reported a data quality issue, but the description is ambiguous.",2026-09-06T08:47:00,Sales
+DQ-0055,Webshop,email,,The email field is missing from the record.,2026-09-06T15:23:00,Support
+DQ-0056,SupportDesk,created_at,32/13/2026,The created_at date field is not in ISO format or contains an impossible date. Manual review is recommended.,2026-09-05T08:50:00,Support
+DQ-0057,Webshop,category,DUP-1001,The record appears to contain a duplicate customer or order identifier.,2026-09-05T14:55:00,Support
+DQ-0058,IoT,price,DUP-1001,The record appears to contain a duplicate customer or order identifier.,2026-09-08T13:08:00,Analytics
+DQ-0059,CRM,quantity,abc@@example,The quantity field format does not match the expected pattern.,2026-09-08T13:30:00,Analytics
+DQ-0060,IoT,customer_id,999999,The customer_id value appears to be extremely high compared with the usual range.,2026-09-03T10:32:00,DataOps
+DQ-0061,CRM,category,-12,The category field contains a negative or non-numeric value. Manual review is recommended.,2026-09-07T12:56:00,Sales
+DQ-0062,CRM,email,,The email field is missing from the record.,2026-09-04T13:20:00,DataOps
+DQ-0063,CRM,email,abc@@example,The email field format does not match the expected pattern. Manual review is recommended.,2026-09-05T12:00:00,DataOps
+DQ-0064,ERP,quantity,32/13/2026,The quantity date field is not in ISO format or contains an impossible date.,2026-09-07T11:58:00,DataOps
+DQ-0065,CRM,customer_id,DUP-1001,The record appears to contain a duplicate customer or order identifier.,2026-09-07T09:27:00,Analytics
+DQ-0066,ERP,price,-12,The price field contains a negative or non-numeric value.,2026-09-06T17:27:00,DataOps
+DQ-0067,Webshop,temperature,abc@@example,The temperature field format does not match the expected pattern.,2026-09-01T12:04:00,Support
+DQ-0068,Webshop,created_at,-12,The created_at field contains a negative or non-numeric value. Manual review is recommended.,2026-09-05T12:19:00,Analytics
+DQ-0069,Webshop,email,DUP-1001,The record appears to contain a duplicate customer or order identifier.,2026-09-04T11:07:00,Support
+DQ-0070,ERP,quantity,-12,The quantity field contains a negative or non-numeric value.,2026-09-02T14:22:00,Analytics
+DQ-0071,SupportDesk,status,DUP-1001,The record appears to contain a duplicate customer or order identifier.,2026-09-06T17:08:00,Analytics
+DQ-0072,ERP,status,,The status field is missing from the record.,2026-09-06T17:10:00,Analytics
+DQ-0073,ERP,customer_id,DUP-1001,The record appears to contain a duplicate customer or order identifier.,2026-09-04T13:44:00,Sales
+DQ-0074,SupportDesk,category,,The category field is missing from the record.,2026-09-03T11:46:00,Analytics
+DQ-0075,IoT,email,32/13/2026,The email date field is not in ISO format or contains an impossible date.,2026-09-05T09:07:00,Support
+DQ-0076,IoT,temperature,999999,The temperature value appears to be extremely high compared with the usual range. Manual review is recommended.,2026-09-06T16:45:00,Sales
+DQ-0077,CRM,email,abc@@example,The email field format does not match the expected pattern.,2026-09-06T13:45:00,Support
+DQ-0078,SupportDesk,price,999999,The price value appears to be extremely high compared with the usual range. Manual review is recommended.,2026-09-01T15:17:00,DataOps
+DQ-0079,SupportDesk,email,-12,The email field contains a negative or non-numeric value.,2026-09-02T08:21:00,Finance
+DQ-0080,IoT,quantity,DUP-1001,The record appears to contain a duplicate customer or order identifier.,2026-09-08T12:40:00,DataOps

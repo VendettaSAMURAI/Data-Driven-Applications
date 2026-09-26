@@ -1,0 +1,5 @@
+record_id,event_time,sensor,value
+E007,2026-09-03T10:00:00,humidity,51
+E008,2026-09-03T10:05:00,temp,23.1
+E006,2026-09-03T10:10:00,temp,22.4
+E009,2026-09-03T10:15:00,pressure,1009.8

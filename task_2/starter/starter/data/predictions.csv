@@ -1,0 +1,11 @@
+case_id,risk_probability,segment,amount
+C001,0.08,standard,120.0
+C002,0.43,standard,780.0
+C003,0.82,standard,95.0
+C004,0.12,high_value,7500.0
+C005,0.33,high_value,9800.0
+C006,0.71,high_value,6200.0
+C007,0.24,standard,310.0
+C008,0.7,standard,1500.0
+C009,0.25,standard,430.0
+C010,0.5,high_value,5100.0

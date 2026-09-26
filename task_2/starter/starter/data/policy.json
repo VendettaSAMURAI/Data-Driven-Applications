@@ -1,0 +1,13 @@
+{
+  "policy_version": "2026-09",
+  "default": {
+    "auto_accept_max": 0.25,
+    "manual_review_max": 0.7
+  },
+  "segment_overrides": {
+    "high_value": {
+      "auto_accept_max": 0.15,
+      "manual_review_max": 0.5
+    }
+  }
+}
